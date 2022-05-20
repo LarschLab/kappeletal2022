@@ -1,29 +1,32 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Analysis code accompanying kappel et al. 2022 'Visual recognition of social signals by a tecto-thalamic neural circuit'.
 
-### What is this repository for? ###
+This repository is intended to provide a snapshot of our analysis scripts 'as is'. The python notebooks and standalone scripts are somewhat commented but have not been optimized for modularity or recycling in other contexts.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+To re-run the analysis and generate the data figure panels, follow these steps:
 
-### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
+cFos and behavior data
 
-* Writing tests
-* Code review
-* Other guidelines
+make sure to set paths first:
 
-### Who do I talk to? ###
+download the raw data first from here: https://doi.org/10.17617/3.2QCFQP
 
-* Repo owner or admin
-* Other community or team contact
+unzip the rawData files into a root folder such as 'kappelData', like so:
+
+- kappelData
+   - Raw Data
+       - behavior
+       - HCR
+       - masks
+
+and adjust the 3 paths to the data in the props.csv file in the 'notebooks' folder from the repository.
+
+then run the master notebook: kappelEtAl2022AllFigurePanels_cfosAndBehavior.ipynb
+
+
+
+
+for 2photon calcium imaging:
