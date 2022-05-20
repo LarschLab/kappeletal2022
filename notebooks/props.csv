@@ -1,8 +1,7 @@
-BaseDir		J:\_Projects\bpn_man\
-ProcessingDir	J:\_Projects\bpn_man\data\processing\
-outputDir		J:\_Projects\bpn_man\data\output\
-RawDataDir		J:\_Projects\bpn_man\data\rawUpload\
-FigureDir		J:\_Projects\bpn_man\figures\
-ArtDir			J:\_Projects\bpn_man\figures\artwork\
-allExpBehFn	J:\_Projects\bpn_man\data\rawUpload\behavior\AllExp_bpn_behavior.xlsx
-allAnBehFn		J:\_Projects\bpn_man\data\rawUpload\behavior\allAn_bpn_behavior.xlsx
+BaseDir		E:\kappelData\
+ProcessingDir	processing
+outputDir	output
+RawDataDir	rawData
+FigureDir	figures
+allExpBehFn	E:\kappelData\rawData\behavior\AllExp_bpn_behavior.xlsx
+allAnBehFn	E:\kappelData\rawData\behavior\allAn_bpn_behavior.xlsx
