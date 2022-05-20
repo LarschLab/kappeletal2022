@@ -8,11 +8,11 @@ To re-run the analysis and generate the data figure panels, follow these steps:
 
 
 
-cFos and behavior data
+## cFos and behavior data
 
 make sure to set paths first:
 
-download the raw data first from here: https://doi.org/10.17617/3.2QCFQP
+download zipped raw data 'behavior', 'HCR', and 'masks' from here: https://doi.org/10.17617/3.2QCFQP
 
 unzip the rawData files into a root folder such as 'kappelData', like so:
 
@@ -29,4 +29,4 @@ then run the master notebook: kappelEtAl2022AllFigurePanels_cfosAndBehavior.ipyn
 
 
 
-for 2photon calcium imaging:
+## 2photon calcium imaging:
