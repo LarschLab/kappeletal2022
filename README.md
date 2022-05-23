@@ -24,6 +24,8 @@ unzip the rawData files into a root folder such as 'kappelData', like so:
 
 and adjust the 3 paths to the data in the props.csv file in the 'notebooks' folder from the repository.
 
+install jlsocial.yml python environment from the notebooks folder
+
 then run the master notebook: kappelEtAl2022AllFigurePanels_cfosAndBehavior.ipynb
 
 
